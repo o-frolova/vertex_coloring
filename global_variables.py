@@ -1,4 +1,4 @@
-PATH = "/Users/olgafrolova/Documents/ВШЭ/the_vertex_coloring_problem/input_files"
+PATH = "path"
 
 OPTIMAL_SOLUTION = {
     'myciel3.col.txt': 4,

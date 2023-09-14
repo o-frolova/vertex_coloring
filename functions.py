@@ -90,4 +90,4 @@ def save_result(result, name_algorithm):
     data['OPTIMAL_SOLUTION'] = OPTIMAL_SOLUTION
     data['SOLVED'] = data['AMOUNT_COLORS'] <= data['OPTIMAL_SOLUTION']
 
-    data.to_excel('/Users/olgafrolova/Documents/ВШЭ/the_vertex_coloring_problem/results/' + name_algorithm)
+    data.to_excel('path' + name_algorithm)

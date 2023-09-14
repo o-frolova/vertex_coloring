@@ -1,7 +1,9 @@
 import os 
 
 def get_testing_data(path):
+    
     os.chdir(path)
+
     Testing_data = {}
     Testing_data_amount_info = {}
 
