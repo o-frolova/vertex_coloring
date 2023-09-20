@@ -12,6 +12,8 @@ from greedy_randomize import *
 if __name__ == '__main__':
 
     Testing_data, Testing_data_amount_info = get_testing_data(PATH)
+    Testing_data.pop('.DS_Store')
+    Testing_data = dict(sorted(Testing_data.items(), key=lambda x: x[0]))
  
     save_result(standart_greedy_heuristics(Testing_data, Testing_data_amount_info), 'standart_greedy_heuristics.xlsx')
 
