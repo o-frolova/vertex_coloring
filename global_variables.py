@@ -1,4 +1,4 @@
-PATH = "/Users/olgafrolova/Documents/ВШЭ/1_курс_магистратуры/Дискретная_оптимизация_и_исследование_операций/the_vertex_coloring_problem/input_files"
+PATH = "path"
 
 OPTIMAL_SOLUTION = {
     'anna.col': 11,
